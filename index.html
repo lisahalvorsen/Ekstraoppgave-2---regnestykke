@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regnestykke</title>
+  </head>
+  <body>
+    <h1>Regnestykke</h1>
+    <p>
+      <i>Lag en liten nettside med et valgfritt antall knapper, hvor hver knapp har
+      et regnestykke i seg. Når du trykker på en knapp skal du et annet sted på
+      nettsiden, i en div for eksempel, se svaret til regnestykket du trykte på.</i>
+    </p>
+
+    <button onclick="showSolution1()">100 + 5</button>
+    <button onclick="showSolution2()">50 / 3</button>
+    <button onclick="showSolution3()">254 * 13</button>
+    <button onclick="showSolution4()">672 - 89</button>
+
+      <div
+        id="calculation1"
+        style="color:aliceblue; background-color:blue; text-align:center;"
+      ></div>
+      <div
+        id="calculation2"
+        style="color:aliceblue; background-color: burlywood; text-align: left;"
+      ></div>
+      <div
+        id="calculation3"
+        style="color:chocolate; background-color: pink; text-align:end;"
+      ></div>
+      <div
+        id="calculation4"
+        style="color:yellowgreen; background-color: blueviolet; text-align: center; margin: 0.5%; display:inline;"
+      ></div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
